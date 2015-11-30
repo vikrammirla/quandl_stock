@@ -1,0 +1,11 @@
+Package: quandl_stock
+Type: OpenCPU Application
+Title: Trying to Query Quandl
+Version: 1.0
+Date: 2015-11-30
+Author: Vikram Mirla                    
+Maintainer: Vikram <vikrammirla@gmail.com>
+Description: OpenCPU Quandl
+License: Apache2
+Depends:
+    Quandl
