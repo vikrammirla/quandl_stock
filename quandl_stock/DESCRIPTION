@@ -1,4 +1,4 @@
-Package: quandl_stock
+Package: quandlstock
 Type: OpenCPU Application
 Title: Quandl Demo application for OpenCPU
 Version: 1.0

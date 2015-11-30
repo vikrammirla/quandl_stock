@@ -1,5 +1,13 @@
 
-quandl_stock = function() {
+#' quandlstock
+#' 
+#' Quandl
+#' Test
+#' 
+#' @return null
+#' @author Vikram Mirla
+#' @export
+quandlstock <- function() {
 
 	library(Quandl)
 	Quandl.api_key("pk6yzCsxF1k-ygB29nfS")
