@@ -8,4 +8,4 @@ Maintainer: Vikram <vikrammirla@gmail.com>
 Description: OpenCPU
 License: Apache2
 Depends:
-    quandl
+    Quandl
