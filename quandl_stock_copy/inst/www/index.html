@@ -1,0 +1,36 @@
+<html>
+<head>
+	<title>First Open CPU Quandl App from scratch</title>
+
+	<script src="javascripts/jquery-2.1.4.min.js"> </script>
+	<script src="javascripts/d3.js"> </script>
+	<script src="javascripts/c3.js"> </script>
+	<script type="text/javascript">
+
+		$(function() {
+			var req $('#plotDiv').rplot("quandl_stock").fail(function() {
+				alert(req.responseText)
+			})
+		})
+
+	</script>
+
+<style>
+#plotdiv {
+  margin-left: 10px;
+  margin-top: 10px;
+  width: 900px;
+  height: 600px;
+  border: solid gray 1px;
+}
+</style>
+
+
+</head>
+
+
+<body>
+	<h1>Query Quandl and plot a simple R chart</h1>
+<div id="plotDiv"></div>
+</body>
+</html>
